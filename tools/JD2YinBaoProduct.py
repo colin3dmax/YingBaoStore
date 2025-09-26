@@ -253,5 +253,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     main(args.src, args.out_prefix, args.max_rows)
 
-with open(script_path, "w", encoding="utf-8") as f:
-    f.write(script_code)
+# with open(script_path, "w", encoding="utf-8") as f:
+#     f.write(script_code)
